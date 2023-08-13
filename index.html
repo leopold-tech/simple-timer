@@ -10,19 +10,25 @@
         <script src="script.js" defer></script>
     </head>
     <body>
-        <svg height="600" width="600">
-            <circle 
-            r="160" 
-            cx="10" 
-            cy="400"
-            fill="transparent"
-            stroke="teal"
-            stroke-width="12"
-            transform="rotate(-90 100 100)"
-            ></circle>
-        </svg>
-        <input type="text" id="duration" value="20">
-        <button id="start"><i class="fa-solid fa-play" style="color: #008080;"></i></button>
-        <button id="pause"><i class="fa-solid fa-pause" style="color: #008080;"></i></button>
+        <div class="timer">
+            <div class="controls">
+                <input type="text" id="duration" value="20">
+                <div>
+                    <button id="start"><i class="fa-solid fa-play" style="color: #008080;"></i></button>
+                    <button id="pause"><i class="fa-solid fa-pause" style="color: #008080;"></i></button>
+                </div>
+            </div>
+            <svg class="dial">
+                <circle 
+                r="160" 
+                cx="10" 
+                cy="400"
+                fill="transparent"
+                stroke="teal"
+                stroke-width="12"
+                transform="rotate(-90 100 100)"
+                ></circle>
+            </svg>
+        </div>
     </body>
 </html>
