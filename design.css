@@ -6,6 +6,7 @@
 .timer {
     position: relative;
     display: inline-block;
+    margin: 200px 600px;
 }
 
 * {
@@ -22,12 +23,26 @@ body {
     width: 240px;
     font-size: 90px;
     text-align: center;
+    margin-bottom: 10px;
 }
 
 .timer button {
     border: none;
     font-size: 36px;
     cursor: pointer;
+    padding: 10px 18px;
+    margin: 6px 14px;
+    background-color: #ffffff;
+}
+
+.timer button:hover {
+    background-color: #ccf1f1;
+    border-radius: 30px;
+}
+
+.timer button:active {
+    background-color: #7be2e2;
+    border-radius: 30px;
 }
 
 .timer button:focus {
